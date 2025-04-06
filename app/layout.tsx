@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     description:
       "Lock in your goals with our interactive platform! Share your hustle and track progress with a vibrant community.",
     images: [{
-      url: SITE_URL.concat("/og-image.svg"),
+      url: SITE_URL.concat("/og-image.png"),
       alt: "LOCK IN: Where your vibe meets the chat",
     }],
     type: "website",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description:
       "Goals? Locked. Join LOCK IN to stay motivated, track wins, and vibe with the community!",
     images: [{
-      url: SITE_URL.concat("/og-image.svg"),
+      url: SITE_URL.concat("/og-image.png"),
       alt: "LOCK IN",
     }],
     creator: "@zufichris",
