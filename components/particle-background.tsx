@@ -36,6 +36,7 @@ import {
 import { calculateDaysLeft, getRandomQuote, shuffleImages } from "@/lib/quotes";
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
+import { SITE_URL } from "@/lib/utils";
 
 // --- Interfaces & Helper ---
 export interface Goal {
@@ -49,11 +50,6 @@ export interface GoalCardProps { goal: Goal; onReset: () => void; }
 
 
 
-// --- Constants ---
-// TODO: Replace with your actual deployed URL
-export const SITE_URL = typeof window !== 'undefined' ? window.location.origin : "https://lock-in-pink.vercel.app/";
-
-// --- Image Gallery Component ---
 const ImageGallery = memo(() => {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay({ delay: 4500, stopOnInteraction: false })]);
 
