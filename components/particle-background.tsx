@@ -59,13 +59,13 @@ const ImageGallery = memo(() => {
 
   const [images, setImages] = useState<string[]>([])
 
-  const getImage = useCallback(async () => {
+  const getImages = useCallback(async () => {
     const imgs = await shuffleImages()
     setImages(imgs)
   }, [])
   useEffect(() => {
-
-  }, [])
+    getImages()
+  }, [getImages])
   return (
     <div className="relative w-full max-w-[450px] sm:max-w-sm mx-auto mt-2 mb-1" aria-label="Inspirational Gallery">
       <div className="overflow-hidden rounded-lg shadow-lg border border-gray-800/50" ref={emblaRef}>
