@@ -7,7 +7,6 @@ import { SITE_URL } from "@/lib/utils"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL("/", SITE_URL),
   title: "I am so LOCKED IN that i built a site to LOCK IN more😂",
   description:
     "Set your goals, lock in, and stay motivated with our interactive goal setting platform. Share your commitments and track your progress.",
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "LOCK IN - I am so LOCKED IN that i built a site to LOCK IN more😂",
     description: "Set your goals, lock in, and stay motivated with our interactive goal setting platform.",
-    images: ["https://lock-in-pink.vercel.app/og-image.png"],
+    images: "https://lock-in-pink.vercel.app/og-image.png",
     creator: "@zufichris",
   },
 }
