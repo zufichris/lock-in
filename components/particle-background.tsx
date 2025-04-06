@@ -51,7 +51,7 @@ export interface GoalCardProps { goal: Goal; onReset: () => void; }
 
 // --- Constants ---
 // TODO: Replace with your actual deployed URL
-const SITE_URL = typeof window !== 'undefined' ? window.location.origin : "https://your-lockin-app.com";
+const SITE_URL = typeof window !== 'undefined' ? window.location.origin : "https://lock-in-pink.vercel.app/";
 
 // --- Image Gallery Component ---
 const ImageGallery = memo(() => {
