@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "LOCK IN - I am so LOCKED IN that i built a site to LOCK IN more😂",
     description: "Set your goals, lock in, and stay motivated with our interactive goal setting platform.",
-    images: ["/og-image.png"],
+    images: ["https://lock-in-pink.vercel.app/og-image.png"],
     creator: "@zufichris",
   },
 }
